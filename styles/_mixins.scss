@@ -1,0 +1,5 @@
+@mixin for-desktop {
+  @media (min-width: 62.5em) and (orientation: landscape) {
+    @content;
+  }
+}
