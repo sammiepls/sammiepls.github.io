@@ -1,10 +1,16 @@
 @import './mixins';
 
 :root {
-  --black: #1f1f1f;
+  --black: #1c1717;
   --white: #fff;
+  --pink: #e34f8c;
+  --yellow: #f8c275;
+  --green: #97f36d;
+  --purple: #c7adfb;
   --bg-color: var(--black);
   --text-color: var(--white);
+  --terminal-bg-color: #272738;
+  --statusbar-bg-color: #353551;
 }
 
 @font-face {
@@ -18,7 +24,7 @@
 }
 
 html {
-  font-size: 80.5%;
+  font-size: 85%;
 }
 
 body {
@@ -37,9 +43,7 @@ body {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
+h4 {
   font-family: 'Miso', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin: 0.5rem 0;
   text-transform: uppercase;
@@ -51,11 +55,19 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 
 h3 {
   font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: 1.5rem;
 }
 
 a {

@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from './index.module.scss';
+import Terminal from '../components/Terminal';
 
 export default function Home() {
   return (
@@ -61,6 +62,8 @@ export default function Home() {
           </address>
           <img src="/avatar.jpg" alt="Sammie" className={styles.avatar} />
         </section>
+
+        <Terminal />
       </main>
 
       <footer></footer>

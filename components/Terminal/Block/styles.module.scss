@@ -1,0 +1,35 @@
+@import 'styles/mixins';
+
+.block {
+  margin-bottom: 2rem;
+
+  h3 {
+    color: var(--pink);
+    position: relative;
+
+    &::before {
+      content: '>';
+      position: absolute;
+      left: -1.3rem;
+    }
+  }
+
+  h4 {
+    font-family: 'Hasklig';
+    color: var(--green);
+
+    time {
+      color: var(--purple);
+      display: block;
+
+      @include for-desktop {
+        display: inline-block;
+
+        &::before {
+          content: '|';
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+}

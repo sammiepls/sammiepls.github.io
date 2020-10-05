@@ -1,0 +1,47 @@
+{
+  "experience": [
+    {
+      "company": "Fave",
+      "role": "Software engineer (Front-end)",
+      "duration": "Nov 2019 - current",
+      "description": "Part of the team that built the merchant web views for Fave using React with functional components and hooks for better performance. Implemented visualization of merchant data with Chart.js. Helped set up CleverTap to track user events."
+    },
+    {
+      "company": "Jirnexu",
+      "role": "Front-end developer",
+      "duration": "Feb 2018 - Nov 2019",
+      "description": "Revamped the RinggitPlus website to a modern, scalable and mobile-first website with speed and performance in mind using Marko.js and Algolia. Adopted the latest additions to CSS3 such as CSS grid and custom CSS properties. Optimized SEO with semantic HTML and JSON-LD."
+    },
+    {
+      "company": "Locus-T",
+      "role": "Web designer",
+      "duration": "Jan 2016 - Jan 2018",
+      "description": "Responsible for creating website and landing page mockups, and digital marketing banners. Delved into web development by bringing those mockups to life with code with HTML and CSS by building Wordpress websites, landing pages and Alibaba sites."
+    },
+    {
+      "company": "The Idea Hut",
+      "role": "Graphic designer",
+      "duration": "Jan 2014 - Dec 2015",
+      "description": "As the sole designer, worked independently to produce event visuals, promotional advertising materials and branding solutions in both digital and print mediums."
+    }
+  ],
+  "education": [
+    {
+      "institute": "University of South Australia",
+      "duration": "2010 - 2012",
+      "course": "Bachelor of Arts",
+      "major": "Communication and Media Management"
+    },
+    {
+      "institute": "University of South Australia",
+      "duration": "2012 - 2013",
+      "course": "Bachelor of Media Arts",
+      "major": "Digital Design"
+    },
+    {
+      "institute": "Next Academy",
+      "duration": "2016",
+      "course": "Web development bootcamp"
+    }
+  ]
+}

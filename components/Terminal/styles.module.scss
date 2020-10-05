@@ -1,0 +1,112 @@
+@import 'styles/mixins.scss';
+
+.terminal {
+  background: var(--terminal-bg-color);
+  margin: 0 -2rem;
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.3);
+
+  @include for-desktop {
+    border-radius: 2rem;
+  }
+}
+
+.statusBar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  background: var(--statusbar-bg-color);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  @include for-desktop {
+    display: block;
+    padding: 0.8rem 0.5rem 0;
+    border-radius: 2rem 2rem 0 0;
+  }
+}
+
+.terminalControls {
+  display: none;
+  outline: none;
+
+  @include for-desktop {
+    background: transparent;
+    border: none;
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 3rem;
+
+    span {
+      background: var(--yellow);
+      border-radius: 50%;
+      height: 1rem;
+      width: 1rem;
+      margin-left: 2rem;
+      display: inline-block;
+    }
+    &::before,
+    &::after {
+      position: absolute;
+      content: '';
+      border-radius: 50%;
+      width: 1rem;
+      height: 1rem;
+      display: inline-block;
+    }
+
+    &::before {
+      margin-right: 2rem;
+      background: var(--pink);
+    }
+
+    &::after {
+      margin-left: 1rem;
+      background: var(--green);
+    }
+  }
+}
+
+.tab {
+  outline: none;
+  background: none;
+  border: none;
+  color: var(--text-color);
+  //filter: opacity(10%);
+  opacity: 0.1;
+  cursor: pointer;
+  transition: 0.3s all ease-out;
+
+  @include for-desktop {
+    border-radius: 1rem 1rem 0 0;
+    margin: 0 0.5rem;
+    padding: 0.2rem 1rem;
+  }
+
+  &:hover {
+    //filter: opacity(60%);
+    transition: 0.3s all ease-out;
+    opacity: 0.6;
+    background: var(--terminal-bg-color);
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  &.active {
+    filter: unset;
+    opacity: 1;
+    background: var(--terminal-bg-color);
+  }
+}
+
+.content {
+  padding: 1rem 2rem;
+  overflow-y: scroll;
+
+  @include for-desktop {
+    max-height: 60vh;
+    padding: 2rem 4rem;
+  }
+}
