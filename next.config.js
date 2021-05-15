@@ -3,6 +3,7 @@ const path = require('path');
 const debug = process.env.NODE_ENV !== 'production';
 
 module.exports = {
+  basePath: !debug ? '/sammiepls.github.io/' : '',
   sassOptions: {
     data: '@import "path/to/global.scss";',
     includePaths: [path.join(__dirname, 'styles')],
