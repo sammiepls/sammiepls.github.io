@@ -47,13 +47,16 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/sammiepls">
+                <a target="_blank" href="https://github.com/sammiepls">
                   <img src="/icon-github-white.svg" alt="Github" />
                   Github
                 </a>
               </li>
               <li>
-                <a href="https://linkedin.com/sammiepls">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/samantha-lau-huai-ee/"
+                >
                   <img src="/icon-linkedin-white.svg" alt="LinkedIn" />
                   LinkedIn
                 </a>
