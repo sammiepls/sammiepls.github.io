@@ -3,7 +3,7 @@ const path = require('path');
 const debug = process.env.NODE_ENV !== 'production';
 
 module.exports = {
-  basePath: !debug ? '/sammiepls.github.io/' : '',
+  basePath: !debug ? 'https://sammiepls.github.io/' : '',
   sassOptions: {
     data: '@import "path/to/global.scss";',
     includePaths: [path.join(__dirname, 'styles')],
@@ -15,7 +15,7 @@ module.exports = {
     };
   },
   //assetPrefix: '',
-  assetPrefix: !debug ? '/sammiepls.github.io/' : '',
+  assetPrefix: !debug ? 'https://sammiepls.github.io/' : '',
   webpack: (config, { dev }) => {
     // Perform customizations to webpack config
     // console.log('webpack');
