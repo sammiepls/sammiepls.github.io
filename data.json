@@ -1,9 +1,15 @@
 {
   "experience": [
     {
+      "company": "CoinGecko",
+      "role": "Mobile engineer",
+      "duration": "Feb 2021 - current",
+      "description": "Responsible for the CoinGecko mobile application using React Native. Currently focused on revamping the app and optimizing performance and improving the user experience."
+    },
+    {
       "company": "Fave",
       "role": "Software engineer (Front-end)",
-      "duration": "Nov 2019 - current",
+      "duration": "Nov 2019 - Feb 2021",
       "description": "Part of the team that built the merchant web views for Fave using React with functional components and hooks for better performance. Implemented visualization of merchant data with Chart.js. Helped set up CleverTap to track user events."
     },
     {
